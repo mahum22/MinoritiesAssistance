@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="NavigationBarCss.css">
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
+  <script type="text/javascript" src= "feed.js"></script>
+  <link rel= "stylesheet" href="feed.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="searchbar.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="search.js"></script>
+<style>
+  html {
+    background: url("https://picjumbo.com/wp-content/uploads/creative-designer-photographer-workspace_free_stock_photos_picjumbo_P1000571-2210x1475.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+</style>
+</head>
+<body>
+<div id='nav-bar'></div>
+<div id='block'></div>
+<button id="myBtn">New Post</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+	<div id="message-box">What's new? (If description becomes too long, seperate it on to new lines by clicking enter occasionally)</div>
+<!--id="post"-->
+	<div id="pref-form">
+		<input style="display:inline;width:100px;height:100px;" type="text" id="post-box" name="post" placeholder="post"/>
+    <input style="display:inline;width:100px;height:100px;" type="text" id="link-box" name="link" placeholder="link"/>
+
+		<br/>
+    <button id="submit" name="submit" onclick="changePrefs()">Submit</button></div></div></div></p>
+
+<div id="feed"></div>
+
+</body>
+</html>
