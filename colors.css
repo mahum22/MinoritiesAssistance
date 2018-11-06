@@ -1,0 +1,58 @@
+.test{
+  color:white;
+  font-family: "Courier New";
+}
+
+h1.a {
+  color:Gold;
+  text-shadow: 3px 2px burlwood;
+  font-size:90px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 20%;
+  padding-bottom:3%;
+  width: 10%;
+  font-family: "Courier New";
+}
+
+h1.b {
+  color:Gray;
+  text-shadow: 3px 2px burlwood;
+  font-size:50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 3%;
+  padding-bottom:3%;
+  width: 10%;
+}
+
+.head{
+  color: Gray;
+  font-family: "Courier New";
+  text-align: center;
+}
+
+  body{
+    color: Gray;
+    background: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 250px;
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 1000px;
+    font-family: monospace;
+  }
+
+#aboutus {
+  color: Gold;
+  font-family: "Courier New";
+  text-align: center;
+}
